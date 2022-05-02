@@ -46,7 +46,19 @@
         "namedComponents": "arrow-function"
       }
     ],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "react/jsx-no-bind": ["error",
+      {
+        "allowFunctions": true,
+        "allowArrowFunctions": true
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
